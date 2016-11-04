@@ -13,6 +13,7 @@ According to the link (https://bitbucket.org/atzori/callsparql), we can download
 
 or we can directly reach the sample dataset : http://swipe.unica.it/3030/ds/query
 
-5. Download: https://bitbucket.org/atzori/callsparql/get/454f11e26ad5.zip
+ *Download: https://bitbucket.org/atzori/callsparql/get/454f11e26ad5.zip
 
-Then, Sparql query to the remote endpoint can be examined as seen in the Example 2: (http://atzori.webofcode.org/projects/wfn/)
+Then, Sparql query to the remote endpoint can be examined 
+as seen in the Example 2: (http://atzori.webofcode.org/projects/wfn/)
