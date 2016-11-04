@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import tr.edu.siege.CallHandler;
+import tr.edu.siege.Utils;
 
 public class CallHandlerTest {
 @Test
@@ -16,7 +17,7 @@ public void callRemoteTest() throws Exception {
 			+ " BIND( wfn:call(CONCAT(STR(fn:concat),\"@http://dbpedia.org/sparql\"),\"alpha\",\"BETA\") as ?res ) "
 			+ "} ";
 
-	String queryResult = new CallHandler().resolveQuery(queryString);
+	String queryResult = new CallHandler().resolveQuery(new Utils().SWIPE_DS_ENDPOINT, queryString);
 	assertEquals("alphaBETA", queryResult);
 }
 }

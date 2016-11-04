@@ -12,12 +12,12 @@ import com.hp.hpl.jena.query.Syntax;
 
 public class CallHandler {
 	final static Logger LOG = Logger.getLogger(CallHandler.class);
-	
-	public String resolveQuery(String queryString) {
+
+	public String resolveQuery(String endpointURI, String queryString) {
 		String possibleFoundDbpediUri = "";
 		Query query = QueryFactory.create(queryString, Syntax.syntaxARQ);
-		QueryExecution qe = QueryExecutionFactory.sparqlService(
-				new Utils().LOCALHOST_ENDPOINT, query);
+		QueryExecution qe = QueryExecutionFactory.sparqlService(endpointURI,
+				query);
 		ResultSet results = qe.execSelect();
 		if (!results.hasNext()) {
 			qe.close();
@@ -39,5 +39,5 @@ public class CallHandler {
 			qe.close();
 		}
 		return possibleFoundDbpediUri;
-}
+	}
 }

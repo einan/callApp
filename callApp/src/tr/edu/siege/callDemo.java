@@ -10,7 +10,7 @@ public class callDemo {
 				+ " BIND( wfn:call(CONCAT(STR(fn:concat),\"@http://dbpedia.org/sparql\"),\"alpha\",\"BETA\") as ?res ) "
 				+ "} ";
 
-		String queryResult = new CallHandler().resolveQuery(queryString);
+		String queryResult = new CallHandler().resolveQuery(new Utils().SWIPE_DS_ENDPOINT, queryString);
 		System.out.println(queryResult);
 	}
 }
