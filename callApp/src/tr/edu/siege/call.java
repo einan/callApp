@@ -1,4 +1,4 @@
-package org.webofcode.atzori;
+package tr.edu.siege;
 
 import java.util.List;
 

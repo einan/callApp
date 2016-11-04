@@ -1,4 +1,4 @@
-package org.webofcode.atzori;
+package tr.edu.siege;
 
 import org.apache.log4j.Logger;
 

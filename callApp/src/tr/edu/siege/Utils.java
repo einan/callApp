@@ -1,4 +1,4 @@
-package org.webofcode.atzori;
+package tr.edu.siege;
 
 public class Utils {
 	public final String DBPEDIA_ENDPOINT = "http://dbpedia.org/sparql";
