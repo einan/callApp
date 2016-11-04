@@ -4,7 +4,7 @@ Apache Jena Console App for the Call Function
 Professor Atzori has published a study (https://github.com/lidingpku/iswc2014/raw/master/paper/87970401-toward-the-web-of-functions-interoperable-higher-order-functions-in-sparql.pdf) about the custom function example for SPARQL queries. Then, this project examines his study
 on Apache Jena console app.
 
-According to the link (https://bitbucket.org/atzori/callsparql), we can download Apache Jena 3 and Fuseki 2.
+According to the link (https://bitbucket.org/atzori/callsparql), Apache Jena 3 and Fuseki 2 should be installed.
 
 1. Download: http://mirror.idealhosting.net.tr/Apache/jena/binaries/apache-jena-3.1.0.zip
 2. Download: http://mirror.idealhosting.net.tr/Apache/jena/binaries/apache-jena-fuseki-2.4.0.zip
